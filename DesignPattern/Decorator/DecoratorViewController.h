@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DecoratorViewController.h
 //  DesignPattern
 //
 //  Created by 唐桂富 on 2019/4/18.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DecoratorViewController : UIViewController
 
 
 @end

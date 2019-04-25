@@ -8,24 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		523129362268CF4200DAC0AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523129352268CF4200DAC0AE /* AppDelegate.m */; };
-		523129392268CF4200DAC0AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523129382268CF4200DAC0AE /* ViewController.m */; };
+		523129392268CF4200DAC0AE /* DecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523129382268CF4200DAC0AE /* DecoratorViewController.m */; };
 		5231293C2268CF4200DAC0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5231293A2268CF4200DAC0AE /* Main.storyboard */; };
 		5231293E2268CF4600DAC0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5231293D2268CF4600DAC0AE /* Assets.xcassets */; };
 		523129412268CF4600DAC0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5231293F2268CF4600DAC0AE /* LaunchScreen.storyboard */; };
 		523129442268CF4600DAC0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523129432268CF4600DAC0AE /* main.m */; };
+		523832C82271EF190024CD52 /* decorator.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 523832C72271EF190024CD52 /* decorator.jpeg */; };
+		523832CC2271F22C0024CD52 /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832CB2271F22C0024CD52 /* ImageFilter.m */; };
+		523832CF2271F5760024CD52 /* ImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832CE2271F5760024CD52 /* ImageTransformFilter.m */; };
+		523832D22271F7F40024CD52 /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832D12271F7F40024CD52 /* ImageShadowFilter.m */; };
+		523832D62271FCDC0024CD52 /* ds-pic-bg-mb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 523832D52271FCDC0024CD52 /* ds-pic-bg-mb.jpg */; };
+		523832E0227206AA0024CD52 /* DecoratorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832DF227206AA0024CD52 /* DecoratorView.m */; };
+		524FE958226F5A6A002237AC /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524FE957226F5A6A002237AC /* ListViewController.m */; };
+		524FE95C226F6022002237AC /* ControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 524FE95B226F6022002237AC /* ControllerFactory.m */; };
+		524FE962226F6549002237AC /* UIImage+ImageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 524FE961226F6549002237AC /* UIImage+ImageComponent.m */; };
+		B0303EF70AB24A4920844579 /* libPods-DesignPattern.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9535D1E4B097313ED997BC7 /* libPods-DesignPattern.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		523129312268CF4200DAC0AE /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		523129342268CF4200DAC0AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		523129352268CF4200DAC0AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		523129372268CF4200DAC0AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		523129382268CF4200DAC0AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		523129372268CF4200DAC0AE /* DecoratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorViewController.h; sourceTree = "<group>"; };
+		523129382268CF4200DAC0AE /* DecoratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorViewController.m; sourceTree = "<group>"; };
 		5231293B2268CF4200DAC0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5231293D2268CF4600DAC0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		523129402268CF4600DAC0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		523129422268CF4600DAC0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523129432268CF4600DAC0AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		523832C72271EF190024CD52 /* decorator.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = decorator.jpeg; sourceTree = "<group>"; };
+		523832C92271EFE60024CD52 /* ImageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageComponent.h; sourceTree = "<group>"; };
+		523832CA2271F22C0024CD52 /* ImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
+		523832CB2271F22C0024CD52 /* ImageFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFilter.m; sourceTree = "<group>"; };
+		523832CD2271F5760024CD52 /* ImageTransformFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTransformFilter.h; sourceTree = "<group>"; };
+		523832CE2271F5760024CD52 /* ImageTransformFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTransformFilter.m; sourceTree = "<group>"; };
+		523832D02271F7F40024CD52 /* ImageShadowFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageShadowFilter.h; sourceTree = "<group>"; };
+		523832D12271F7F40024CD52 /* ImageShadowFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageShadowFilter.m; sourceTree = "<group>"; };
+		523832D52271FCDC0024CD52 /* ds-pic-bg-mb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ds-pic-bg-mb.jpg"; sourceTree = "<group>"; };
+		523832DE227206AA0024CD52 /* DecoratorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorView.h; sourceTree = "<group>"; };
+		523832DF227206AA0024CD52 /* DecoratorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorView.m; sourceTree = "<group>"; };
+		524FE956226F5A6A002237AC /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		524FE957226F5A6A002237AC /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		524FE95A226F6022002237AC /* ControllerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerFactory.h; sourceTree = "<group>"; };
+		524FE95B226F6022002237AC /* ControllerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerFactory.m; sourceTree = "<group>"; };
+		524FE960226F6549002237AC /* UIImage+ImageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageComponent.h"; sourceTree = "<group>"; };
+		524FE961226F6549002237AC /* UIImage+ImageComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageComponent.m"; sourceTree = "<group>"; };
+		A32B20C0ED31670236CCCF9D /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
+		D03D0619BEAC9725A67D3400 /* Pods-DesignPattern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern.debug.xcconfig"; sourceTree = "<group>"; };
+		E9535D1E4B097313ED997BC7 /* libPods-DesignPattern.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DesignPattern.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0303EF70AB24A4920844579 /* libPods-DesignPattern.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		309C75C9E5D48EBFBE5F49FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9535D1E4B097313ED997BC7 /* libPods-DesignPattern.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		523129282268CF4200DAC0AE = {
 			isa = PBXGroup;
 			children = (
 				523129332268CF4200DAC0AE /* DesignPattern */,
 				523129322268CF4200DAC0AE /* Products */,
+				D50658906A3CB40BBAE892FC /* Pods */,
+				309C75C9E5D48EBFBE5F49FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +101,10 @@
 			children = (
 				523129342268CF4200DAC0AE /* AppDelegate.h */,
 				523129352268CF4200DAC0AE /* AppDelegate.m */,
-				523129372268CF4200DAC0AE /* ViewController.h */,
-				523129382268CF4200DAC0AE /* ViewController.m */,
+				524FE956226F5A6A002237AC /* ListViewController.h */,
+				524FE957226F5A6A002237AC /* ListViewController.m */,
+				524FE959226F5FE9002237AC /* ControllerFactory */,
+				524FE955226F5A2B002237AC /* Decorator */,
 				5231293A2268CF4200DAC0AE /* Main.storyboard */,
 				5231293D2268CF4600DAC0AE /* Assets.xcassets */,
 				5231293F2268CF4600DAC0AE /* LaunchScreen.storyboard */,
@@ -71,6 +114,86 @@
 			path = DesignPattern;
 			sourceTree = "<group>";
 		};
+		523832D32271F8D50024CD52 /* UML */ = {
+			isa = PBXGroup;
+			children = (
+				523832C72271EF190024CD52 /* decorator.jpeg */,
+			);
+			path = UML;
+			sourceTree = "<group>";
+		};
+		523832D42271F8E20024CD52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				523832D52271FCDC0024CD52 /* ds-pic-bg-mb.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		524FE955226F5A2B002237AC /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				524FE95F226F64C9002237AC /* Images */,
+				524FE95E226F64BA002237AC /* Category */,
+				524FE95D226F648E002237AC /* DirectSubClass */,
+				523129372268CF4200DAC0AE /* DecoratorViewController.h */,
+				523129382268CF4200DAC0AE /* DecoratorViewController.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		524FE959226F5FE9002237AC /* ControllerFactory */ = {
+			isa = PBXGroup;
+			children = (
+				524FE95A226F6022002237AC /* ControllerFactory.h */,
+				524FE95B226F6022002237AC /* ControllerFactory.m */,
+			);
+			path = ControllerFactory;
+			sourceTree = "<group>";
+		};
+		524FE95D226F648E002237AC /* DirectSubClass */ = {
+			isa = PBXGroup;
+			children = (
+				523832DE227206AA0024CD52 /* DecoratorView.h */,
+				523832DF227206AA0024CD52 /* DecoratorView.m */,
+				524FE960226F6549002237AC /* UIImage+ImageComponent.h */,
+				524FE961226F6549002237AC /* UIImage+ImageComponent.m */,
+				523832C92271EFE60024CD52 /* ImageComponent.h */,
+				523832CA2271F22C0024CD52 /* ImageFilter.h */,
+				523832CB2271F22C0024CD52 /* ImageFilter.m */,
+				523832CD2271F5760024CD52 /* ImageTransformFilter.h */,
+				523832CE2271F5760024CD52 /* ImageTransformFilter.m */,
+				523832D02271F7F40024CD52 /* ImageShadowFilter.h */,
+				523832D12271F7F40024CD52 /* ImageShadowFilter.m */,
+			);
+			path = DirectSubClass;
+			sourceTree = "<group>";
+		};
+		524FE95E226F64BA002237AC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		524FE95F226F64C9002237AC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				523832D42271F8E20024CD52 /* Resources */,
+				523832D32271F8D50024CD52 /* UML */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D50658906A3CB40BBAE892FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D03D0619BEAC9725A67D3400 /* Pods-DesignPattern.debug.xcconfig */,
+				A32B20C0ED31670236CCCF9D /* Pods-DesignPattern.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 523129472268CF4600DAC0AE /* Build configuration list for PBXNativeTarget "DesignPattern" */;
 			buildPhases = (
+				409C5E49388ACF60B91178EC /* [CP] Check Pods Manifest.lock */,
 				5231292D2268CF4200DAC0AE /* Sources */,
 				5231292E2268CF4200DAC0AE /* Frameworks */,
 				5231292F2268CF4200DAC0AE /* Resources */,
+				E6BD1149895A2BA00F1658D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				523129412268CF4600DAC0AE /* LaunchScreen.storyboard in Resources */,
+				523832C82271EF190024CD52 /* decorator.jpeg in Resources */,
+				523832D62271FCDC0024CD52 /* ds-pic-bg-mb.jpg in Resources */,
 				5231293E2268CF4600DAC0AE /* Assets.xcassets in Resources */,
 				5231293C2268CF4200DAC0AE /* Main.storyboard in Resources */,
 			);
@@ -136,14 +263,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		409C5E49388ACF60B91178EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignPattern-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6BD1149895A2BA00F1658D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5231292D2268CF4200DAC0AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523129392268CF4200DAC0AE /* ViewController.m in Sources */,
+				524FE95C226F6022002237AC /* ControllerFactory.m in Sources */,
+				523129392268CF4200DAC0AE /* DecoratorViewController.m in Sources */,
 				523129442268CF4600DAC0AE /* main.m in Sources */,
+				524FE962226F6549002237AC /* UIImage+ImageComponent.m in Sources */,
+				524FE958226F5A6A002237AC /* ListViewController.m in Sources */,
 				523129362268CF4200DAC0AE /* AppDelegate.m in Sources */,
+				523832CF2271F5760024CD52 /* ImageTransformFilter.m in Sources */,
+				523832D22271F7F40024CD52 /* ImageShadowFilter.m in Sources */,
+				523832E0227206AA0024CD52 /* DecoratorView.m in Sources */,
+				523832CC2271F22C0024CD52 /* ImageFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,34 +456,40 @@
 		};
 		523129482268CF4600DAC0AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03D0619BEAC9725A67D3400 /* Pods-DesignPattern.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2AF4HF959P;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhijian Zhong (AM7X68W6WH)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LJSWRPUB56;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vc.js.DesignPattern;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gm.designpattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "gm-dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		523129492268CF4600DAC0AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32B20C0ED31670236CCCF9D /* Pods-DesignPattern.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2AF4HF959P;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhijian Zhong (LJSWRPUB56)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LJSWRPUB56;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vc.js.DesignPattern;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gm.designpattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "gm-adhoc";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
