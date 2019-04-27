@@ -12,6 +12,7 @@
 
 static NSArray * patternsArray() {
     return @[
+             @{@"id":@"1",@"name":@"基本原则"},
              @{@"id":@"1",@"name":@"原型"},
              @{@"id":@"2",@"name":@"工厂"},
              @{@"id":@"3",@"name":@"抽象工厂"},
@@ -46,7 +47,7 @@ static NSArray * patternsArray() {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"软件设计模式";
+    self.title = @"设计模式";
     _totalPatterns = patternsArray();
 }
 

@@ -7,12 +7,6 @@
 //
 
 #import "ControllerFactory.h"
-typedef NS_ENUM(NSInteger, DesignPatternType) {
-    DesignPatternTypePrototype = 1,
-    DesignPatternTypeVirtualConstructor,
-    DesignPatternTypeAbstractFactory,
-    DesignPatternTypeCreator,
-};
 
 @implementation ControllerFactory
 
