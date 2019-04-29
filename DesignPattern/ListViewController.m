@@ -9,6 +9,8 @@
 #import "ListViewController.h"
 #import "ControllerFactory.h"
 #import "DecoratorViewController.h"
+#import "TemplateMethodViewController.h"
+#import "CommandViewController.h"
 
 static NSArray * patternsArray() {
     return @[
@@ -28,9 +30,9 @@ static NSArray * patternsArray() {
              @{@"id":@"13",@"name":@"访问者"},
              @{@"id":@"14",@"name":@"装饰",@"class":NSStringFromClass([DecoratorViewController class])},
              @{@"id":@"15",@"name":@"责任链"},
-             @{@"id":@"16",@"name":@"模板"},
+             @{@"id":@"16",@"name":@"模板方法",@"class":NSStringFromClass([TemplateMethodViewController class])},
              @{@"id":@"17",@"name":@"策略"},
-             @{@"id":@"18",@"name":@"命令"},
+             @{@"id":@"18",@"name":@"命令",@"class":NSStringFromClass([CommandViewController class])},
              @{@"id":@"19",@"name":@"享元"},
              @{@"id":@"20",@"name":@"代理"},
              @{@"id":@"21",@"name":@"备忘录"}

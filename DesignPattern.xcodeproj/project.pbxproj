@@ -19,6 +19,12 @@
 		523832D22271F7F40024CD52 /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832D12271F7F40024CD52 /* ImageShadowFilter.m */; };
 		523832D62271FCDC0024CD52 /* ds-pic-bg-mb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 523832D52271FCDC0024CD52 /* ds-pic-bg-mb.jpg */; };
 		523832E0227206AA0024CD52 /* DecoratorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832DF227206AA0024CD52 /* DecoratorView.m */; };
+		523832E32275FABC0024CD52 /* decoratorpatterndes.json in Resources */ = {isa = PBXBuildFile; fileRef = 523832E22275FABC0024CD52 /* decoratorpatterndes.json */; };
+		523832E82275FB300024CD52 /* TemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832E72275FB300024CD52 /* TemplateMethodViewController.m */; };
+		523832EA2275FF2B0024CD52 /* sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 523832E92275FF2B0024CD52 /* sandwich.jpg */; };
+		523832EF2275FF9E0024CD52 /* templatepatterndes.json in Resources */ = {isa = PBXBuildFile; fileRef = 523832EE2275FF9E0024CD52 /* templatepatterndes.json */; };
+		523832F32275FFE60024CD52 /* AnySandWich.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832F22275FFE60024CD52 /* AnySandWich.m */; };
+		523832F722774E7B0024CD52 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832F622774E7B0024CD52 /* CommandViewController.m */; };
 		524FE958226F5A6A002237AC /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524FE957226F5A6A002237AC /* ListViewController.m */; };
 		524FE95C226F6022002237AC /* ControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 524FE95B226F6022002237AC /* ControllerFactory.m */; };
 		524FE962226F6549002237AC /* UIImage+ImageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 524FE961226F6549002237AC /* UIImage+ImageComponent.m */; };
@@ -47,6 +53,15 @@
 		523832D52271FCDC0024CD52 /* ds-pic-bg-mb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ds-pic-bg-mb.jpg"; sourceTree = "<group>"; };
 		523832DE227206AA0024CD52 /* DecoratorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorView.h; sourceTree = "<group>"; };
 		523832DF227206AA0024CD52 /* DecoratorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorView.m; sourceTree = "<group>"; };
+		523832E22275FABC0024CD52 /* decoratorpatterndes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = decoratorpatterndes.json; sourceTree = "<group>"; };
+		523832E62275FB300024CD52 /* TemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateMethodViewController.h; sourceTree = "<group>"; };
+		523832E72275FB300024CD52 /* TemplateMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateMethodViewController.m; sourceTree = "<group>"; };
+		523832E92275FF2B0024CD52 /* sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sandwich.jpg; sourceTree = "<group>"; };
+		523832EE2275FF9E0024CD52 /* templatepatterndes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = templatepatterndes.json; sourceTree = "<group>"; };
+		523832F12275FFE60024CD52 /* AnySandWich.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnySandWich.h; sourceTree = "<group>"; };
+		523832F22275FFE60024CD52 /* AnySandWich.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnySandWich.m; sourceTree = "<group>"; };
+		523832F522774E7B0024CD52 /* CommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
+		523832F622774E7B0024CD52 /* CommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
 		524FE956226F5A6A002237AC /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		524FE957226F5A6A002237AC /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		524FE95A226F6022002237AC /* ControllerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerFactory.h; sourceTree = "<group>"; };
@@ -103,6 +118,8 @@
 				523129352268CF4200DAC0AE /* AppDelegate.m */,
 				524FE956226F5A6A002237AC /* ListViewController.h */,
 				524FE957226F5A6A002237AC /* ListViewController.m */,
+				523832F422774E560024CD52 /* Commands */,
+				523832E42275FAD40024CD52 /* TemplateMethod */,
 				524FE959226F5FE9002237AC /* ControllerFactory */,
 				524FE955226F5A2B002237AC /* Decorator */,
 				5231293A2268CF4200DAC0AE /* Main.storyboard */,
@@ -128,6 +145,76 @@
 				523832D52271FCDC0024CD52 /* ds-pic-bg-mb.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		523832E12275F4460024CD52 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				523832E22275FABC0024CD52 /* decoratorpatterndes.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		523832E42275FAD40024CD52 /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				523832F02275FFBE0024CD52 /* Template */,
+				523832E52275FAF20024CD52 /* Images */,
+				523832E62275FB300024CD52 /* TemplateMethodViewController.h */,
+				523832E72275FB300024CD52 /* TemplateMethodViewController.m */,
+			);
+			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
+		523832E52275FAF20024CD52 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				523832ED2275FF4F0024CD52 /* JSON */,
+				523832EC2275FF430024CD52 /* UML */,
+				523832EB2275FF340024CD52 /* Resources */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		523832EB2275FF340024CD52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				523832E92275FF2B0024CD52 /* sandwich.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		523832EC2275FF430024CD52 /* UML */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UML;
+			sourceTree = "<group>";
+		};
+		523832ED2275FF4F0024CD52 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				523832EE2275FF9E0024CD52 /* templatepatterndes.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		523832F02275FFBE0024CD52 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				523832F12275FFE60024CD52 /* AnySandWich.h */,
+				523832F22275FFE60024CD52 /* AnySandWich.m */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		523832F422774E560024CD52 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				523832F522774E7B0024CD52 /* CommandViewController.h */,
+				523832F622774E7B0024CD52 /* CommandViewController.m */,
+			);
+			path = Commands;
 			sourceTree = "<group>";
 		};
 		524FE955226F5A2B002237AC /* Decorator */ = {
@@ -179,6 +266,7 @@
 		524FE95F226F64C9002237AC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				523832E12275F4460024CD52 /* JSON */,
 				523832D42271F8E20024CD52 /* Resources */,
 				523832D32271F8D50024CD52 /* UML */,
 			);
@@ -254,10 +342,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				523129412268CF4600DAC0AE /* LaunchScreen.storyboard in Resources */,
+				523832EF2275FF9E0024CD52 /* templatepatterndes.json in Resources */,
 				523832C82271EF190024CD52 /* decorator.jpeg in Resources */,
 				523832D62271FCDC0024CD52 /* ds-pic-bg-mb.jpg in Resources */,
 				5231293E2268CF4600DAC0AE /* Assets.xcassets in Resources */,
 				5231293C2268CF4200DAC0AE /* Main.storyboard in Resources */,
+				523832EA2275FF2B0024CD52 /* sandwich.jpg in Resources */,
+				523832E32275FABC0024CD52 /* decoratorpatterndes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,10 +404,13 @@
 				524FE962226F6549002237AC /* UIImage+ImageComponent.m in Sources */,
 				524FE958226F5A6A002237AC /* ListViewController.m in Sources */,
 				523129362268CF4200DAC0AE /* AppDelegate.m in Sources */,
+				523832E82275FB300024CD52 /* TemplateMethodViewController.m in Sources */,
 				523832CF2271F5760024CD52 /* ImageTransformFilter.m in Sources */,
 				523832D22271F7F40024CD52 /* ImageShadowFilter.m in Sources */,
+				523832F32275FFE60024CD52 /* AnySandWich.m in Sources */,
 				523832E0227206AA0024CD52 /* DecoratorView.m in Sources */,
 				523832CC2271F22C0024CD52 /* ImageFilter.m in Sources */,
+				523832F722774E7B0024CD52 /* CommandViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
