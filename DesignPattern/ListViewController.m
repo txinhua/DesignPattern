@@ -14,7 +14,7 @@
 
 static NSArray * patternsArray() {
     return @[
-             @{@"id":@"1",@"name":@"基本原则"},
+             @{@"id":@"0",@"name":@"基本原则"},
              @{@"id":@"1",@"name":@"原型"},
              @{@"id":@"2",@"name":@"工厂"},
              @{@"id":@"3",@"name":@"抽象工厂"},

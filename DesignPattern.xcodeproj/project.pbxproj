@@ -13,7 +13,6 @@
 		5231293E2268CF4600DAC0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5231293D2268CF4600DAC0AE /* Assets.xcassets */; };
 		523129412268CF4600DAC0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5231293F2268CF4600DAC0AE /* LaunchScreen.storyboard */; };
 		523129442268CF4600DAC0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523129432268CF4600DAC0AE /* main.m */; };
-		523832C82271EF190024CD52 /* decorator.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 523832C72271EF190024CD52 /* decorator.jpeg */; };
 		523832CC2271F22C0024CD52 /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832CB2271F22C0024CD52 /* ImageFilter.m */; };
 		523832CF2271F5760024CD52 /* ImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832CE2271F5760024CD52 /* ImageTransformFilter.m */; };
 		523832D22271F7F40024CD52 /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832D12271F7F40024CD52 /* ImageShadowFilter.m */; };
@@ -25,6 +24,8 @@
 		523832EF2275FF9E0024CD52 /* templatepatterndes.json in Resources */ = {isa = PBXBuildFile; fileRef = 523832EE2275FF9E0024CD52 /* templatepatterndes.json */; };
 		523832F32275FFE60024CD52 /* AnySandWich.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832F22275FFE60024CD52 /* AnySandWich.m */; };
 		523832F722774E7B0024CD52 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832F622774E7B0024CD52 /* CommandViewController.m */; };
+		523FD156227F2AC6000F18A9 /* decorator.png in Resources */ = {isa = PBXBuildFile; fileRef = 523FD155227F2AC6000F18A9 /* decorator.png */; };
+		523FD158227F31F0000F18A9 /* Template.png in Resources */ = {isa = PBXBuildFile; fileRef = 523FD157227F31F0000F18A9 /* Template.png */; };
 		524FE958226F5A6A002237AC /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524FE957226F5A6A002237AC /* ListViewController.m */; };
 		524FE95C226F6022002237AC /* ControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 524FE95B226F6022002237AC /* ControllerFactory.m */; };
 		524FE962226F6549002237AC /* UIImage+ImageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 524FE961226F6549002237AC /* UIImage+ImageComponent.m */; };
@@ -42,7 +43,6 @@
 		523129402268CF4600DAC0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		523129422268CF4600DAC0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523129432268CF4600DAC0AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		523832C72271EF190024CD52 /* decorator.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = decorator.jpeg; sourceTree = "<group>"; };
 		523832C92271EFE60024CD52 /* ImageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageComponent.h; sourceTree = "<group>"; };
 		523832CA2271F22C0024CD52 /* ImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
 		523832CB2271F22C0024CD52 /* ImageFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFilter.m; sourceTree = "<group>"; };
@@ -62,6 +62,8 @@
 		523832F22275FFE60024CD52 /* AnySandWich.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnySandWich.m; sourceTree = "<group>"; };
 		523832F522774E7B0024CD52 /* CommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
 		523832F622774E7B0024CD52 /* CommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
+		523FD155227F2AC6000F18A9 /* decorator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decorator.png; sourceTree = "<group>"; };
+		523FD157227F31F0000F18A9 /* Template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Template.png; sourceTree = "<group>"; };
 		524FE956226F5A6A002237AC /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		524FE957226F5A6A002237AC /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		524FE95A226F6022002237AC /* ControllerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerFactory.h; sourceTree = "<group>"; };
@@ -134,7 +136,7 @@
 		523832D32271F8D50024CD52 /* UML */ = {
 			isa = PBXGroup;
 			children = (
-				523832C72271EF190024CD52 /* decorator.jpeg */,
+				523FD155227F2AC6000F18A9 /* decorator.png */,
 			);
 			path = UML;
 			sourceTree = "<group>";
@@ -187,6 +189,7 @@
 		523832EC2275FF430024CD52 /* UML */ = {
 			isa = PBXGroup;
 			children = (
+				523FD157227F31F0000F18A9 /* Template.png */,
 			);
 			path = UML;
 			sourceTree = "<group>";
@@ -343,10 +346,11 @@
 			files = (
 				523129412268CF4600DAC0AE /* LaunchScreen.storyboard in Resources */,
 				523832EF2275FF9E0024CD52 /* templatepatterndes.json in Resources */,
-				523832C82271EF190024CD52 /* decorator.jpeg in Resources */,
 				523832D62271FCDC0024CD52 /* ds-pic-bg-mb.jpg in Resources */,
 				5231293E2268CF4600DAC0AE /* Assets.xcassets in Resources */,
+				523FD158227F31F0000F18A9 /* Template.png in Resources */,
 				5231293C2268CF4200DAC0AE /* Main.storyboard in Resources */,
+				523FD156227F2AC6000F18A9 /* decorator.png in Resources */,
 				523832EA2275FF2B0024CD52 /* sandwich.jpg in Resources */,
 				523832E32275FABC0024CD52 /* decoratorpatterndes.json in Resources */,
 			);
