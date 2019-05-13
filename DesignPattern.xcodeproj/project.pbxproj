@@ -24,6 +24,7 @@
 		523832EF2275FF9E0024CD52 /* templatepatterndes.json in Resources */ = {isa = PBXBuildFile; fileRef = 523832EE2275FF9E0024CD52 /* templatepatterndes.json */; };
 		523832F32275FFE60024CD52 /* AnySandWich.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832F22275FFE60024CD52 /* AnySandWich.m */; };
 		523832F722774E7B0024CD52 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523832F622774E7B0024CD52 /* CommandViewController.m */; };
+		523B0DB22289D3800099B0AE /* command.png in Resources */ = {isa = PBXBuildFile; fileRef = 523B0DB12289D3800099B0AE /* command.png */; };
 		523FD156227F2AC6000F18A9 /* decorator.png in Resources */ = {isa = PBXBuildFile; fileRef = 523FD155227F2AC6000F18A9 /* decorator.png */; };
 		523FD158227F31F0000F18A9 /* Template.png in Resources */ = {isa = PBXBuildFile; fileRef = 523FD157227F31F0000F18A9 /* Template.png */; };
 		524FE958226F5A6A002237AC /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524FE957226F5A6A002237AC /* ListViewController.m */; };
@@ -62,6 +63,7 @@
 		523832F22275FFE60024CD52 /* AnySandWich.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnySandWich.m; sourceTree = "<group>"; };
 		523832F522774E7B0024CD52 /* CommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
 		523832F622774E7B0024CD52 /* CommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
+		523B0DB12289D3800099B0AE /* command.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = command.png; sourceTree = "<group>"; };
 		523FD155227F2AC6000F18A9 /* decorator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decorator.png; sourceTree = "<group>"; };
 		523FD157227F31F0000F18A9 /* Template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Template.png; sourceTree = "<group>"; };
 		524FE956226F5A6A002237AC /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
@@ -214,10 +216,35 @@
 		523832F422774E560024CD52 /* Commands */ = {
 			isa = PBXGroup;
 			children = (
+				523B0DAE2289D34E0099B0AE /* Images */,
 				523832F522774E7B0024CD52 /* CommandViewController.h */,
 				523832F622774E7B0024CD52 /* CommandViewController.m */,
 			);
 			path = Commands;
+			sourceTree = "<group>";
+		};
+		523B0DAE2289D34E0099B0AE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				523B0DB02289D36C0099B0AE /* UML */,
+				523B0DAF2289D3600099B0AE /* JSON */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		523B0DAF2289D3600099B0AE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		523B0DB02289D36C0099B0AE /* UML */ = {
+			isa = PBXGroup;
+			children = (
+				523B0DB12289D3800099B0AE /* command.png */,
+			);
+			path = UML;
 			sourceTree = "<group>";
 		};
 		524FE955226F5A2B002237AC /* Decorator */ = {
@@ -353,6 +380,7 @@
 				523FD156227F2AC6000F18A9 /* decorator.png in Resources */,
 				523832EA2275FF2B0024CD52 /* sandwich.jpg in Resources */,
 				523832E32275FABC0024CD52 /* decoratorpatterndes.json in Resources */,
+				523B0DB22289D3800099B0AE /* command.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
